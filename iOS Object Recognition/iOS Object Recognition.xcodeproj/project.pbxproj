@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12ACA38CB9FD8D68F90AAEBA /* Pods_iOS_Object_RecognitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76142AB8F2902C961BFF219 /* Pods_iOS_Object_RecognitionTests.framework */; };
+		4949CCCF9FBD415AC8F57638 /* Pods_iOS_Object_RecognitionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB42F343C705FDB46FDA1490 /* Pods_iOS_Object_RecognitionUITests.framework */; };
+		8B836334A451FDAD02124AFA /* Pods_iOS_Object_Recognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B762A055E299F74C85CF9C /* Pods_iOS_Object_Recognition.framework */; };
+		EE73068A1F1FD05B005A459A /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE7306891F1FD05B005A459A /* OpenCVWrapper.mm */; };
+		EE73068C1F1FD9FE005A459A /* CameraUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE73068B1F1FD9FE005A459A /* CameraUtil.swift */; };
 		EEECEEB41F1FB5160030ADD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEECEEB31F1FB5160030ADD6 /* AppDelegate.swift */; };
 		EEECEEBC1F1FB5160030ADD6 /* iOS_Object_Recognition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEECEEBA1F1FB5160030ADD6 /* iOS_Object_Recognition.xcdatamodeld */; };
 		EEECEEBE1F1FB5160030ADD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEECEEBD1F1FB5160030ADD6 /* Assets.xcassets */; };
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5899AB6853B8BA7CEF4DB76F /* Pods-iOS Object RecognitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Object RecognitionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Object RecognitionUITests/Pods-iOS Object RecognitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65188E1C3D9B94F31DB0E2E2 /* Pods-iOS Object RecognitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Object RecognitionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Object RecognitionUITests/Pods-iOS Object RecognitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE23FB7A6F061CB5AD19765B /* Pods-iOS Object RecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Object RecognitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Object RecognitionTests/Pods-iOS Object RecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5B762A055E299F74C85CF9C /* Pods_iOS_Object_Recognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Object_Recognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76142AB8F2902C961BFF219 /* Pods_iOS_Object_RecognitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Object_RecognitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA32688B9369CAD8B0069D /* Pods-iOS Object Recognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Object Recognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Object Recognition/Pods-iOS Object Recognition.debug.xcconfig"; sourceTree = "<group>"; };
+		EA28A316101C35E9252A002E /* Pods-iOS Object RecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Object RecognitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Object RecognitionTests/Pods-iOS Object RecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7306881F1FD05B005A459A /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		EE7306891F1FD05B005A459A /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		EE73068B1F1FD9FE005A459A /* CameraUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraUtil.swift; sourceTree = "<group>"; };
 		EEECEEB01F1FB5160030ADD6 /* iOS Object Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Object Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEECEEB31F1FB5160030ADD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEECEEBB1F1FB5160030ADD6 /* iOS_Object_Recognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Object_Recognition.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +66,8 @@
 		EEECEEEF1F1FB8830030ADD6 /* iOS Object Recognition-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS Object Recognition-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		EEECEEF01F1FB8F50030ADD6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EEECEEF11F1FBA9B0030ADD6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		F5A03FE847456E4E4FAE83F7 /* Pods-iOS Object Recognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Object Recognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Object Recognition/Pods-iOS Object Recognition.release.xcconfig"; sourceTree = "<group>"; };
+		FB42F343C705FDB46FDA1490 /* Pods_iOS_Object_RecognitionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Object_RecognitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEECEEF31F1FBACF0030ADD6 /* opencv2.framework in Frameworks */,
+				8B836334A451FDAD02124AFA /* Pods_iOS_Object_Recognition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ACA38CB9FD8D68F90AAEBA /* Pods_iOS_Object_RecognitionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4949CCCF9FBD415AC8F57638 /* Pods_iOS_Object_RecognitionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2293050FD85FACAF4AB45491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B762A055E299F74C85CF9C /* Pods_iOS_Object_Recognition.framework */,
+				D76142AB8F2902C961BFF219 /* Pods_iOS_Object_RecognitionTests.framework */,
+				FB42F343C705FDB46FDA1490 /* Pods_iOS_Object_RecognitionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEECEEA71F1FB5160030ADD6 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +119,8 @@
 				EEECEECA1F1FB5160030ADD6 /* iOS Object RecognitionTests */,
 				EEECEED51F1FB5160030ADD6 /* iOS Object RecognitionUITests */,
 				EEECEEB11F1FB5160030ADD6 /* Products */,
+				F651CD5FF602DE3FA9FA892D /* Pods */,
+				2293050FD85FACAF4AB45491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +143,9 @@
 				EEECEEBF1F1FB5160030ADD6 /* LaunchScreen.storyboard */,
 				EEECEEC21F1FB5160030ADD6 /* Info.plist */,
 				EEECEEBA1F1FB5160030ADD6 /* iOS_Object_Recognition.xcdatamodeld */,
+				EE7306881F1FD05B005A459A /* OpenCVWrapper.h */,
+				EE7306891F1FD05B005A459A /* OpenCVWrapper.mm */,
+				EE73068B1F1FD9FE005A459A /* CameraUtil.swift */,
 			);
 			path = "iOS Object Recognition";
 			sourceTree = "<group>";
@@ -141,6 +176,19 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
+		F651CD5FF602DE3FA9FA892D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA32688B9369CAD8B0069D /* Pods-iOS Object Recognition.debug.xcconfig */,
+				F5A03FE847456E4E4FAE83F7 /* Pods-iOS Object Recognition.release.xcconfig */,
+				EA28A316101C35E9252A002E /* Pods-iOS Object RecognitionTests.debug.xcconfig */,
+				BE23FB7A6F061CB5AD19765B /* Pods-iOS Object RecognitionTests.release.xcconfig */,
+				65188E1C3D9B94F31DB0E2E2 /* Pods-iOS Object RecognitionUITests.debug.xcconfig */,
+				5899AB6853B8BA7CEF4DB76F /* Pods-iOS Object RecognitionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEECEEDB1F1FB5160030ADD6 /* Build configuration list for PBXNativeTarget "iOS Object Recognition" */;
 			buildPhases = (
+				2DF72ABA90A51CA846AB48A4 /* [CP] Check Pods Manifest.lock */,
 				EEECEEAC1F1FB5160030ADD6 /* Sources */,
 				EEECEEAD1F1FB5160030ADD6 /* Frameworks */,
 				EEECEEAE1F1FB5160030ADD6 /* Resources */,
+				1431CC9D5A96C055ADAA3085 /* [CP] Embed Pods Frameworks */,
+				923A651801890D0EDDC11301 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEECEEDE1F1FB5160030ADD6 /* Build configuration list for PBXNativeTarget "iOS Object RecognitionTests" */;
 			buildPhases = (
+				63407DCA60DC3634ACF16BED /* [CP] Check Pods Manifest.lock */,
 				EEECEEC31F1FB5160030ADD6 /* Sources */,
 				EEECEEC41F1FB5160030ADD6 /* Frameworks */,
 				EEECEEC51F1FB5160030ADD6 /* Resources */,
+				3009EA3BBA2DC874995DE4A0 /* [CP] Embed Pods Frameworks */,
+				70BBE31D30ED4DB06C562D18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEECEEE11F1FB5160030ADD6 /* Build configuration list for PBXNativeTarget "iOS Object RecognitionUITests" */;
 			buildPhases = (
+				31849471033AE78901A90BA2 /* [CP] Check Pods Manifest.lock */,
 				EEECEECE1F1FB5160030ADD6 /* Sources */,
 				EEECEECF1F1FB5160030ADD6 /* Frameworks */,
 				EEECEED01F1FB5160030ADD6 /* Resources */,
+				303F4A3AA1D3C67E0A35634E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +329,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1431CC9D5A96C055ADAA3085 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Object Recognition/Pods-iOS Object Recognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF72ABA90A51CA846AB48A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3009EA3BBA2DC874995DE4A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Object RecognitionTests/Pods-iOS Object RecognitionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		303F4A3AA1D3C67E0A35634E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Object RecognitionUITests/Pods-iOS Object RecognitionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31849471033AE78901A90BA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63407DCA60DC3634ACF16BED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70BBE31D30ED4DB06C562D18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Object RecognitionTests/Pods-iOS Object RecognitionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923A651801890D0EDDC11301 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Object Recognition/Pods-iOS Object Recognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEECEEAC1F1FB5160030ADD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -280,7 +459,9 @@
 			files = (
 				EEECEEBC1F1FB5160030ADD6 /* iOS_Object_Recognition.xcdatamodeld in Sources */,
 				EEECEEED1F1FB7CE0030ADD6 /* ImageViewController.swift in Sources */,
+				EE73068A1F1FD05B005A459A /* OpenCVWrapper.mm in Sources */,
 				EEECEEB41F1FB5160030ADD6 /* AppDelegate.swift in Sources */,
+				EE73068C1F1FD9FE005A459A /* CameraUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +603,7 @@
 		};
 		EEECEEDC1F1FB5160030ADD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FA32688B9369CAD8B0069D /* Pods-iOS Object Recognition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -432,6 +614,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "iOS Object Recognition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.iOS-Object-Recognition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +627,7 @@
 		};
 		EEECEEDD1F1FB5160030ADD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A03FE847456E4E4FAE83F7 /* Pods-iOS Object Recognition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -454,6 +638,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "iOS Object Recognition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.iOS-Object-Recognition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +650,7 @@
 		};
 		EEECEEDF1F1FB5160030ADD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA28A316101C35E9252A002E /* Pods-iOS Object RecognitionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +666,7 @@
 		};
 		EEECEEE01F1FB5160030ADD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE23FB7A6F061CB5AD19765B /* Pods-iOS Object RecognitionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +682,7 @@
 		};
 		EEECEEE21F1FB5160030ADD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65188E1C3D9B94F31DB0E2E2 /* Pods-iOS Object RecognitionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P8PQNBAE99;
@@ -509,6 +697,7 @@
 		};
 		EEECEEE31F1FB5160030ADD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5899AB6853B8BA7CEF4DB76F /* Pods-iOS Object RecognitionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P8PQNBAE99;
@@ -540,6 +729,7 @@
 				EEECEEDD1F1FB5160030ADD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEECEEDE1F1FB5160030ADD6 /* Build configuration list for PBXNativeTarget "iOS Object RecognitionTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +738,7 @@
 				EEECEEE01F1FB5160030ADD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEECEEE11F1FB5160030ADD6 /* Build configuration list for PBXNativeTarget "iOS Object RecognitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +747,7 @@
 				EEECEEE31F1FB5160030ADD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,6 @@
+framework module Pods_iOS_Object_RecognitionUITests {
+  umbrella header "Pods-iOS Object RecognitionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
